@@ -37,7 +37,7 @@
 | **Backend**     | Node.js, Express, Razorpay SDK, Web3.js                               |
 | **Contracts**   | Solidity, Hardhat, Polygon Mumbai Testnet                            |
 | **Database**    | In-memory storage (MVP)                                               |
-| **DevOps**      | GitHub Actions, Vercel/Heroku                                         |
+| **DevOps**      | GitHub Actions, Vercel/Herovo                                         |
 
 ---
 
@@ -61,7 +61,7 @@
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/shubhamkumar/layerpay.git
+git clone https://github.com/your-username/layerpay.git
 cd layerpay
 ```
 
@@ -93,21 +93,21 @@ npx hardhat compile
 ### Frontend (`.env`)
 ```env
 VITE_API_URL=http://localhost:3001
-VITE_RAZORPAY_KEY=rzp_test_1234567890abcdef
-VITE_CONTRACT_ADDRESS=0x1234567890abcdef1234567890abcdef12345678
+VITE_RAZORPAY_KEY=your_razorpay_key
+VITE_CONTRACT_ADDRESS=0x...
 ```
 
 ### Backend (`.env`)
 ```env
-RAZORPAY_KEY=rzp_test_1234567890abcdef
-RAZORPAY_SECRET=1234567890abcdef1234567890abcdef
+RAZORPAY_KEY=your_razorpay_key
+RAZORPAY_SECRET=your_razorpay_secret
 POLYGON_RPC_URL=https://rpc-mumbai.maticvigil.com
-PRIVATE_KEY=0xabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdefabcdef
+PRIVATE_KEY=your_wallet_private_key
 ```
 
 ### Contracts (`.env`)
 ```env
-POLYGONSCAN_API_KEY=1234567890abcdef1234567890abcdef
+POLYGONSCAN_API_KEY=your_key
 POLYGON_RPC_URL=https://rpc-mumbai.maticvigil.com
 PRIVATE_KEY=your_wallet_private_key
 ```
@@ -184,13 +184,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 - Razorpay for payment gateway APIs.  
 - Polygon for blockchain infrastructure.  
 - Hardhat for smart contract tooling.  
-```
-
----
-
-### 🔍 **How to Use This README**
-1. Replace placeholder URLs (e.g., `your-username`, `0x...`).  
-2. Add screenshots/demo GIFs under the [Demo](#-demo) section.  
-3. Customize the roadmap and tech stack as needed.  
-
-**You’re all set!** This README covers setup, configuration, and future plans while keeping it concise and hackathon-ready. 🎉
